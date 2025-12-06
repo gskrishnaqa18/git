@@ -27,8 +27,9 @@ public class TestNew {
     void test4(){
         System.out.println("Printing Test4 Method");
     }
-    @Test(priority = '1')
+    @Test()
     void test5(){
         System.out.println("Printing test5 Method");
+        System.out.println("----------------------");
     }
 }
